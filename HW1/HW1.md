@@ -148,9 +148,9 @@ net.ipv4.ip_forward = 1
   Wireguard Peer IP: 10.113.0.74
   Wireguard Server: [navpn.nctucs.cc:51820](http://navpn.nctucs.cc:51820/)
   Wireguard Server Public Key: server-public-key
-  Wireguard Interal IP: 10.113.0.254 **???**
+  Wireguard Interal IP: 10.113.0.254 
 
-- make sure you have the **kernel headers** for your current kernel
+  make sure you have the **kernel headers** for your current kernel
 
   ```
   $ sudo yum install kernel-headers-$(uname -r) kernel-devel-$(uname -r)
